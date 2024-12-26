@@ -49,17 +49,13 @@
         <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
         <jacoco.version>0.8.8</jacoco.version>
         <jacoco.minimum-rate>0.80</jacoco.minimum-rate>
-
-        <!-- Modules -->
-        <error-utils.version>0.1.0-SNAPSHOT</error-utils.version>
     </properties>
 
     <dependencies>
-        <!-- Shared Lib -->
+        <!-- Spring Core -->
         <dependency>
-            <groupId>net.ow.shared</groupId>
-            <artifactId>error-utils</artifactId>
-            <version>${error-utils.version}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <!-- Lombok -->
