@@ -1,7 +1,3 @@
-## Jira Ticket
-
-[Link](https://synpulse.atlassian.net/browse/{ticekt-number})
-
 ## Description
 
 (Summarize the changes that have been made)
